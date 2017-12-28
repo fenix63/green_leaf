@@ -25,6 +25,155 @@ header{
     height: 30px;
 }
 
+.header-center{
+    height: 120px;
+    padding-top: 16px;
+}
+
+.header-center .logo{
+
+    float: left;
+    margin-top: 10px;
+}
+
+.header-center .based{
+    float: left;
+    text-align: center;
+    margin-left: 47px;
+
+    background: url(../img/ellipse.png) no-repeat;
+    width: 68px;
+    height: 68px;
+    font-family: HelveticaNeueCyr, sans-serif;
+}
+
+.header-center .based span{
+    font-weight: 600;
+    color: #646464;
+    margin-top: 34px;
+}
+
+.header-center .based .txt{
+    margin-top: 16px;
+}
+
+.header-center .based span:first-child{
+    font-size: 10px;
+}
+
+.header-center .based span:last-child{
+    font-size: 12px;
+}
+
+.header-center .price, .header-center .calc{
+    float: left;
+    padding-top: 4px;
+    margin-left: 84px;
+    margin-top:15px;
+}
+
+.header-center .calc{
+    margin-left: 45px;
+    float: left;
+}
+
+.header-center .price span,
+.header-center .calc span
+{
+    font-family: HelveticaNeueCyr,sans-serif;
+    font-weight: 500;
+    color: #646464;
+
+}
+
+.header-center .price span:first-child,
+.header-center .calc span:first-child
+{
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.header-center .price span:last-child,
+.header-center .calc span:last-child
+{
+    font-size: 14px;
+}
+.header-center .price .txt,
+.header-center .calc .txt,
+.header-center .phone .txt
+{
+    line-height: 0.8;
+    float: left;
+    margin-left: 10px;
+    width: 83px;
+}
+
+.price .price_logo, .calc .calc_logo{
+
+    float: left;
+    width: 33px;
+    height: 33px;
+    background: url(../img/price_img.png) no-repeat;
+}
+
+.calc .calc_logo{
+    background: url(../img/calc.png) no-repeat;
+}
+
+.phone{
+    margin-top: 15px;
+    margin-left: 80px;
+    float: left;
+}
+
+.phone .phone_logo{
+    float: left;
+    width: 35px;
+    height: 35px;
+    background: url('../img/phone.png') no-repeat;
+}
+
+.phone .txt{
+    width: 165px !important;
+    margin-left: 18px !important;
+    color: #646464;
+    line-height: 0.9 !important;
+}
+
+.phone .txt span{
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-size: 22px;
+}
+
+.phone .txt span:last-child{
+    font-size: 13px;
+}
+
+.phone .txt span.black{
+    color: #000;
+    font-size: 22px;
+}
+
+.zamer{
+    float: right;
+}
+
+.zamer button{
+    margin-top: 15px;
+    background: #e60000;
+    border: 0;
+    border-radius: 5px;
+    padding: 13px 22px 12px 26px;
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.zamer button:hover{
+
+}
+
 .city{
     display: block;
     position: relative;
