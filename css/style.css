@@ -168,10 +168,102 @@ header{
     font-size: 16px;
     font-weight: 600;
     color: #fff;
+    cursor: pointer;
 }
 
 .zamer button:hover{
 
+}
+
+.menu{
+    clear: both;
+    padding-top: 15px;
+    width: 100%;
+    height: 50px;
+    background: url(../img/menu_bg.png) 0px 15px no-repeat;
+}
+
+.menu ul li{
+
+    display: inline-block;
+    color: #fff;
+    padding: 0 1.9em;
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu ul li img{
+    padding-right: 10px;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.room{
+    float: right !important;
+}
+
+.menu ul li.has-child:hover .submenu{
+    display: block;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -69px;
+    background: #e9e9e9;
+    border: 0px solid #000;
+    width: 450px;
+    height: 350px;
+    padding: 15px 21px 20px 23px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.submenu ul{
+    padding-left: 0;
+    list-style-image: url(../img/arrow_submenu.png) no-repeat;
+}
+
+.submenu ul li{
+    background: url(../img/arrow_submenu.png) no-repeat 11px 16px;
+    line-height: 2.6;
+}
+
+.submenu ul li:hover{
+    background: url(../img/arrow_submenu_hover.png) no-repeat 11px 16px;
+}
+
+.submenu ul li:hover a{
+    color: #ef0000;
+    text-decoration: underline;
+}
+
+.submenu ul li a{
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #404346;
+}
+
+.submenu fieldset{
+    width: 40%;
+    float: left;
+    color: #000;
+    border-radius: 10px;
+}
+.submenu fieldset legend{
+    text-align: center;
+    font-family: HelveticaNeueCyr, sans-serif;
+    color: #929292;
+    text-transform: uppercase;
+    font-weight:500;
+}
+
+.submenu fieldset ul li{
+    color: #000;
 }
 
 .city{
